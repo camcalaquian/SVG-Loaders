@@ -1,15 +1,5 @@
 <svg width="13" height="3" viewBox="0 0 13 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
-  .dot {
-    fill: #000;
-  }
-  @media (prefers-color-scheme: dark) {
-    .dot {
-      fill: #fff;
-    }
-  }
-</style>
-<rect width="3" height="3" class="dot"/>
-<rect x="5" width="3" height="3" class="dot"/>
-<rect x="10" width="3" height="3" class="dot"/>
+<rect width="3" height="3" fill="white"/>
+<rect x="5" width="3" height="3" fill="white"/>
+<rect x="10" width="3" height="3" fill="white"/>
 </svg>
