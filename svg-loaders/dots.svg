@@ -1,5 +1,17 @@
 <svg width="13" height="3" viewBox="0 0 13 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="3" height="3" fill="white"/>
-<rect x="5" width="3" height="3" fill="white"/>
-<rect x="10" width="3" height="3" fill="white"/>
+  <style>
+    .dot { fill: #333; }
+    @media (prefers-color-scheme: dark) {
+      .dot { fill: white; }
+    }
+  </style>
+  <rect class="dot" width="3" height="3">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite" begin="0s"/>
+  </rect>
+  <rect class="dot" x="5" width="3" height="3">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite" begin="0.2s"/>
+  </rect>
+  <rect class="dot" x="10" width="3" height="3">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite" begin="0.4s"/>
+  </rect>
 </svg>
